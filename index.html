@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+    <title>Bruno Testa's Title Page</title>
+     <link rel="stylesheet" href="site.css" />
+</head>
+
+<body>
+    <div class= "container">
+     <header>
+        <img id="headshot" src="img/Resume Pic" />
+        <h1 id="siteName">Bruno Testa</h1>
+        
+        <ul id="menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <p><strong>Purpose:</strong> This is a resume (or CV) to help me get a job in web development.</p>
+        
+        <h2>Experience</h2>
+        <div class="experience">
+            <p class="title">Chick-fil-A - 2017-2019</p>
+            <p>Worked register and drive-thru</p>
+        </div>
+        <div class="experience"> 
+            <p class="title">Walmart - 2019-2020</p>
+            <p>Worked register and asset protection.  </p>
+        </div>
+        <div class="experience">
+            <p class="title">UPS - 2020-Present</p> 
+            <p>Worked as package handler and now as training supervisor.</p>
+        </div>
+
+    </main>
+
+    <aside>
+        <h2>Contact Me</h2>
+        <form>
+            <div>
+                <label for="fullName">Full Name</label>
+            </div>
+            <div>
+                <input id="fullName" type="text" />
+            </div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input id="email" type="email" />
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+            </div>
+            <div>
+                <select id="subject">
+                    <option>Job Offer</option>
+                    <option>Personal Message</option>
+                    <option>Complaint</option>
+                </select>
+             <div>
+                <label for="msg">Message</label>
+            </div>
+            <div>
+                <textarea id="msg" rows="4 "></textarea>
+             </div>
+             <div>
+                 <input class="sendbutton" type="submit" value="Send Mail"  />
+             </div>
+        </form>
+
+    </aside>
+
+        <footer>
+            <div>
+            &copy; 2022 Copyright - Bruno Testa
+         </div>
+    </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
